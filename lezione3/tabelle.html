@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        td{
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Tabella utenti</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Età</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Mario</td>
+                <td>Rossi</td>
+                <td>30</td>
+            </tr>
+            
+            <tr>
+                <td>Maria</td>
+                <td>Rossi</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Numero utenti</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td colspan="2">7</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+</body>
+</html>
